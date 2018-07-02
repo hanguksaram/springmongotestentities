@@ -11,6 +11,9 @@ public class NestedMongoEntity {
     private String nestedDescripton;
     private String nestedName;
 
+    public NestedMongoEntity() {
+    }
+
     public NestedMongoEntity(String nestedDescripton, String nestedName) {
         this.nestedDescripton = nestedDescripton;
         this.nestedName = nestedName;

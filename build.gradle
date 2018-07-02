@@ -27,7 +27,9 @@ repositories {
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-actuator')
     compile('org.springframework.boot:spring-boot-starter-data-mongodb')
-    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-data-mongodb-reactive')
+    //compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-webflux')
     // https://mvnrepository.com/artifact/de.flapdoodle.embed/de.flapdoodle.embed.mongo
     compile (group: 'de.flapdoodle.embed', name: 'de.flapdoodle.embed.mongo', version: '2.1.1')
     compile group: 'com.github.mwarc', name: 'embedded-mongo-spring', version: '0.1.0'

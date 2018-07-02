@@ -18,7 +18,8 @@ public class TestMongoEntity {
     @DBRef
     private Set<NestedMongoEntity> nestedMongoEntities = new HashSet<>();
 
-
+    public TestMongoEntity() {
+    }
 
     public TestMongoEntity(String name, String description, Set<NestedMongoEntity> nestedMongoEntities) {
         this.name = name;
